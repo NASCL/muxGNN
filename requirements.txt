@@ -1,0 +1,12 @@
+# Install appropriate version of PyTorch and DGL for your CUDA version
+
+# PyTorch: https://pytorch.org/
+torch=1.13.0
+
+# DGL: https://www.dgl.ai/pages/start.html
+dgl-cuda113~=0.7.2
+
+numpy>=1.20.3
+tqdm>=4.61.0
+scikit-learn>=0.24.0
+networkx>=2.5
