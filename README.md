@@ -52,7 +52,7 @@ Options for datasets are 'amazon', 'twitter', 'youtube', or 'tissue_ppi'.
 Set the ```--inductive``` flag with the 'tissue_ppi' dataset to run the inductive link prediction experiment.
 
 ```bash
-python -um main_graphclass <dataset> <model-nam>
+python -um main_graphpred <dataset> <model-nam>
 ```
 
 Options for datasets are 'streamspot' or 'wget'.
